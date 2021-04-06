@@ -1,0 +1,104 @@
+nav{
+    background-color: #000c4b !important;
+}
+.nav-link{
+    color: white !important;
+}
+
+.nav-link:hover{
+    color: orange !important;
+}
+
+#countdown{
+    background-color: #2105a0;
+}
+
+.display-4{
+    font-size: 2.3rem;
+}
+
+#parent {
+    position: relative;
+  }
+  
+#child {
+    position: absolute;
+    top: 60px;
+    right: 0px;
+  }
+
+.rounded-circle{
+    font-size:25px;
+    font-weight: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#parent1{
+  position: relative;
+}
+
+#child1{
+  position: absolute;
+  top: 160px;
+  left: 17px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.card{
+  background-color: whitesmoke;
+}
+
+.card i{
+  font-size: 35px;
+  padding: 0;
+  color: white;
+  background-color: #2105a0;
+  width: 60px;
+  height: 43px;
+  padding: 3px;
+  align-self: center;
+  border-radius: 25px;
+
+}
+
+.card p{
+  color: rgb(128, 127, 127);
+}
+
+.company-details{
+  color: white;
+  background-color: #2105a0;
+}
+
+#footer p{
+  color: white;
+  background-color: #2105a0;
+}
+
+@media screen and (max-width: 424px) and (min-width: 372px) {
+    .sec {
+      position: static;
+      top: 65px;
+      left: 156px;
+    }
+
+    .none{
+      display: none;
+    }
+  }
+
+@media screen and (max-width: 371px){
+    .sec {
+        position: static;
+        top: 65px;
+        left: 95px;
+    }
+
+    .none{
+      display: none;
+    }
+  }
